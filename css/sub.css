@@ -1,0 +1,2069 @@
+﻿
+
+.application-title{
+    background: url(../images/applicationbg.jpg) no-repeat 0 0 / cover;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.application-title .bg{
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}
+.application-title .title-text{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.3;
+}
+.application-title .title-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.application-title .title-text p{
+    font-size: 35px;
+    line-height: 1;
+}
+
+.application-box .title{
+    padding: 30px 0;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.application-box .title p{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #004F30;
+    line-height: 1;
+}
+
+
+
+.application-contact{
+    width: 60%;
+    margin: 50px auto;
+    margin-top: 20px;
+    background-color: #FFF4EF;
+    padding: 30px 50px;
+    box-shadow: 2px 2px 10px #ddd;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.application-contact #kboard-contact-form-editor .kboard-attr-row {
+    padding: 5px 0;
+}
+
+.application-contact #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-reset-button{
+    display: none;
+}
+.application-contact #kboard-contact-form-editor .required .attr-required-text{
+    display: none;
+}
+.application-contact .field-name{
+    font-size: 18px;
+    padding: 5px 0;
+    display: inline-block;
+
+
+}
+.application-contact #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label input[type="radio"]{
+    display: none;
+}
+
+.application-contact  #kboard-contact-form-editor  .meta-key-time .attr-value{
+    width: 100%;
+}
+.application-contact .meta-key-time .attr-value label span{
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    color: #ddd;
+    font-size: 18px;
+    display: inline-block;
+    color: #004F30;
+    background-color: #fff;
+}
+
+.application-contact .meta-key-time .attr-value label input[type="radio"]:checked+span{
+    background-color: #ff4d00;
+    color: #fff;
+}
+
+.application-contact .meta-key-date .field-name{
+    padding: 0;
+}
+.application-contact  #kboard-contact-form-editor input[type=text],
+.application-contact  #kboard-contact-form-editor .editor-textarea{
+    padding: 20px 10px;
+}
+.application-contact  #kboard-contact-form-editor .editor-textarea{
+    padding: 10px;
+}
+
+.application-contact .meta-key-class .attr-value label span,
+.application-contact .meta-key-6166592d9f328 .attr-value label span{
+    color: #004F30;
+    padding: 5px 10px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.application-contact .meta-key-class .attr-value label input[type="radio"]:hover+span,
+.application-contact .meta-key-6166592d9f328 .attr-value label input[type="radio"]:hover+span,
+.application-contact .meta-key-time .attr-value label input[type="radio"]:hover+span,
+.application-contact .meta-key-time .attr-value label input[type="radio"]:checked+span,
+.application-contact .meta-key-class .attr-value label input[type="radio"]:checked+span,
+.application-contact .meta-key-6166592d9f328 .attr-value label input[type="radio"]:checked+span{
+    background-color: #ff4d00;
+    color: #fff;
+}
+/* .application-contact #kboard-contact-form-editor select:hover, .application-contact #kboard-contact-form-editor .editor-textarea:hover, .application-contact #kboard-contact-form-editor input[type=text]:hover, .application-contact #kboard-contact-form-editor input[type=email]:hover, .application-contact #kboard-contact-form-editor input[type=number]:hover, .application-contact #kboard-contact-form-editor input[type=date]:hover, .application-contact #kboard-contact-form-editor input[type=password]:hover{
+    border: 1px #004F30 solid;
+} */
+
+
+
+.policy{
+    display: none;
+}
+.term_con_area{
+    text-align: center;
+}
+.term_con_area label{
+    margin-top: 20px;
+    display: inline-block;
+}
+.application-contact form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.application-contact form .app-val{
+    width: 47%;
+    margin: 15px;
+}
+
+.application-contact form .field-name{
+    color: #004F30;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.application-contact form .app-val input,
+.application-contact form .app-val select{
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+}
+.application-contact form .app-val.text,
+.application-contact form .app-val textarea{
+    width: 100%;
+}
+
+.application-contact form .app-val textarea{
+    height: 100px;
+}
+
+.application-contact form .radio-box{
+    width: 100%;
+    margin: 15px;
+}
+
+.application-contact form .radio-box input[type="radio"]{
+    margin-right: 10px;
+}
+
+.application-contact form .radio-box .radio-val{
+    margin-right: 30px;
+}
+
+.application-contact form .app-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.application-contact form .app-btn button{
+    background-color: #004F30;
+    color: #fff;
+    padding: 15px;
+    width: 150px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+/* 교육과정 */
+
+.curriculum-title {
+    background: url(../images/curriculumbg.jpg) no-repeat 24% / cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+.curriculum-title .bg{
+    background-color: #000;
+    opacity: 0.5;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+.curriculum-title p{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+}
+
+.curriculum-box .title-text p{
+    color: #004F30;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+.curriculum-box .curriculum{
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px 0;
+}
+.curriculum-box  .title-set {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 70px 0 10px;
+    border-bottom: 1px solid #FCCA00;
+}
+.curriculum-box  .title-set a{
+    padding: 20px 55px;
+    width: 250px;
+    text-align: center;
+    line-height: 1.2;
+}
+.curriculum-box  .title-set .junior{
+    background-color: #FCCA00;
+    color: #fff;
+}
+
+.curriculum-box .curriculum .total-list .title {
+    border: none;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+.curriculum-box .curriculum .total-list .title p{
+    position: relative;
+    padding-left: 25px;
+}
+.curriculum-box .curriculum .total-list .title p::before{
+    content: "";
+    width: 5px;
+    height: 28px;
+    background-color: #459398;
+    position: absolute;
+    left: 5px;
+} 
+.curriculum-box .curriculum .flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.curriculum-box .curriculum .list-img {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculum-box .curriculum .list-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.curriculum-box .curriculum .flex-none{
+    width: 70%;
+}
+.curriculum-box .curriculum .total-class{
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.curriculum-box .curriculum .adult-class,
+.curriculum-box .curriculum .special-class{
+    display: none;
+}
+.curriculum-box .curriculum .total-list > div {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 40px 0;
+}
+.curriculum-box .curriculum .total-list .list1{
+    padding-top: 20px;
+}
+.curriculum-box .curriculum .total-list > div p{
+    line-height: 1;
+}
+
+.curriculum-box .curriculum .total-list .list-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curriculum-box .curriculum .total-list .list-title p:nth-child(1){
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.curriculum-box .curriculum .total-list .list-title p:nth-child(1) span{
+    font-size: 18px;
+
+}
+
+.curriculum-box .curriculum .total-list .list-title .publish{
+    margin-right: 10px;
+    background-color: #636363;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.curriculum-box .curriculum .total-list .list-title .person{
+    background-color: #9C0000;
+    color: #fff;
+    padding: 5px;
+}
+.curriculum-box .curriculum .total-list .list-text{
+    margin-top: 15px;
+}
+.curriculum-box .curriculum .total-list .list-text p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 수강 후기 */
+
+.review-title {
+    background: url(../images/reviewbg.jpg) no-repeat center / cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+.review-title .reviewbg{
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+.review-title .title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.review-title .title p{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.review-title .title p span{
+    color: #FCCA00;
+    font-weight: bold;
+}
+.review-title .btn{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.review-title .btn a{
+    line-height: 1.2;
+    border: 2px #FCCA00 solid;
+    padding: 20px 30px;
+    color: #FCCA00;
+    font-size: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-weight: bold;
+}
+.review-title .btn a:hover{
+    background-color: #FCCA00;
+    color: #fff;
+}
+.review-board {
+    width: 70%;
+    margin: 50px auto;
+}
+.review-board .board-title{
+    padding: 50px 0;
+}
+.review-board .review-title p {
+    text-align: center;
+    color: #004F30;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1;
+}
+.review-board p span{
+    font-size: 30px;
+    font-weight: normal;
+    color: #ff4d00;
+}
+.review-board .review-info {
+    background-color: #fff4ef;
+    padding: 25px 40px;
+    margin-top: 30px;
+}
+.review-board .board-title > p{
+    text-align: center;
+    color: #004F30;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1;
+}
+.review-board .review-info p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+.review-board .review-info p:nth-child(2){
+    margin: 0;
+}
+.review-board .review-info p:nth-child(3) span{
+    font-size: 16px;
+    margin-top: 5px;
+    display: inline-block;
+    font-weight: 500;
+    color: #000;
+}
+.review-board .review-info p:last-child{
+    font-weight: bold;
+    color: #459398;
+    margin-top: 50px;
+}
+.review-board .review-info p span{
+    font-size: 18px;
+}
+
+.review-board .review-info .review-list{
+    width: 60%;
+    margin: 30px auto;
+}
+.review-board .review-info .review-list li{
+    margin: 5px 0;
+    line-height: 1.5;
+}
+.review-board .review-info .review-list li span{
+    color: #fff;
+    background-color: #ff4d00;
+    padding: 0 1px;
+}
+.review-board #kboard-default-list .kboard-list table td.kboard-list-title {
+    width: 70%;
+}
+/* .review-board  #kboard-default-list .kboard-pagination .kboard-pagination-pages li a{
+    background-color: #E7F7EF;
+    color: #004F30;
+} */
+.review-board  #kboard-default-list .kboard-pagination .kboard-pagination-pages li:hover a, .review-board  #kboard-default-list .kboard-pagination  .kboard-pagination-pages li.active a,
+.review-board #kboard-default-list .kboard-search button.kboard-default-button-small:hover,
+.review-board #kboard-default-list .kboard-control a.kboard-default-button-small:hover{
+    color: #fff !important;
+    background-color: #ff4d00 !important;
+    opacity: 1;
+}
+.review-board #kboard-default-document .kboard-control .right{
+    display: none;
+}
+.review-board #kboard-default-document .kboard-control .left a:nth-child(2){
+    display: none;
+}
+
+/* .review-board #kboard-default-list .kboard-control a.kboard-default-button-small{
+    background-color: #E7F7EF !important;
+    color: #004F30 !important;
+} */
+
+.review-board #kboard-default-editor .kboard-attr-row .attr-name .attr-required-text{
+    display: none;
+}
+.review-board #kboard-default-document .kboard-button-print{
+    display: none;
+}
+/* 기업/단체 문의 */
+
+.inquiry-wrap {}
+.inquiry-wrap .inquiry-box{
+    position: relative;
+}
+.inquiry-wrap .inquiry-title{
+    background: url(../images/inquirybg.jpg) no-repeat 0 0  / cover;
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+
+.inquiry-wrap .inquiry-title .bg{
+    background-color: #000;
+    width: 100%;
+    height: 120vh;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+.inquiry-wrap .contact-box{
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+    top: 55%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 35%;
+    padding: 20px 40px 40px;
+    border-radius: 50px;
+}
+
+.inquiry-wrap .contact-box .text-title{
+    padding: 20px 0;
+}
+.inquiry-wrap .contact-box .text-title p{
+    line-height: 1;
+}
+.inquiry-wrap .contact-box .text-title p:nth-child(1){
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.inquiry-wrap .contact-box .text-title p:nth-child(2){
+    font-weight: 300;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+.inquiry-wrap #kboard-contact-form-editor .editor-textarea{
+    height: 100px;
+    font-size: 15px;
+    background-color: #E7F7EF;
+}
+.inquiry-wrap #kboard-contact-form-editor input[type=text]{
+    font-size: 15px;
+    background-color: #E7F7EF;
+}
+
+.term_con_area label {
+    font-size: 15px;
+}
+
+.inquiry-wrap .contact-box form{
+    padding: 30px;
+    border: 2px #004F30 solid;
+    border-radius: 30px;
+}
+.inquiry-wrap .contact-box form .contact-val{
+    margin-bottom: 20px;
+}
+
+.inquiry-wrap .contact-box form .contact-val .value {
+    margin-top: 7px;
+}
+
+.inquiry-wrap .contact-box form .contact-val .value input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.inquiry-wrap .contact-box form .contact-val span{
+    color: #004F30;
+    font-weight: bold;
+}
+
+
+.inquiry-wrap .contact-box form .contact-val .value textarea{
+    width: 100%;
+    height: 150px;
+}
+
+.inquiry-wrap .contact-box form .sumit-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.inquiry-wrap .contact-box form .sumit-btn .btn{
+    background-color: #004F30;
+    width: 150px;
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+
+/* 수강안내 */
+.guide-box{
+    position: relative;
+}
+.guide-box .guide-title{
+    width: 100%;
+    height: 60vh;
+    background: url(../images/guidebg.jpg) no-repeat  0 0 / cover;
+    position: relative;
+}
+.guide-box .guide-title .guide-bg{
+    background-color: #000;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+.guide-box .guide-title p{
+    position: absolute;
+    color: #fff;
+    font-size: 60px;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.guide-box .guide-contact{
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 70px;
+}
+.guide-box .title p{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #004F30;
+    line-height: 1;
+}
+.guide-box .info-box{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+}
+.guide-box .info-box > div{
+    width: 33.33%;
+    border-right: 3px #fff solid;
+}
+
+.guide-box .info-box .box-title{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.guide-box .info-box .box-title p{
+    font-size: 28px;
+    line-height: normal;
+    font-weight: bold;
+}
+.guide-box .info-box > div:last-child{
+    border: none;
+}
+.guide-box .info-box .info1 .info-title{
+    background-color: #FCCA00;
+}
+.guide-box .info-box .info2 .info-title{
+    background-color: #39A7AD;
+}
+.guide-box .info-box .info3 .info-title{
+    background-color: #BA4F70;
+}
+.guide-box .info-box > div .info-title {
+    border-bottom: 3px #fff solid;
+}
+
+.guide-box .info-box > div .info-title p{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+.guide-box .info-box > div .info-title p span{
+    font-size: 20px;
+    font-weight: normal;
+}
+.guide-box .info-box > div div{
+    display: flex;
+    justify-content: center;
+}
+.guide-box .info-box > div .min-1{
+    padding-top:10px;
+    border-bottom: 3px #fff solid;
+}
+.guide-box .info-box .info1 div{
+    background-color: #FFF6D1;
+}
+.guide-box .info-box .info2 div{
+    background-color: #E9F9FA;
+}
+.guide-box .info-box .info3 div{
+    background-color: #fff4f7;
+}
+.guide-box .info-box > div div p{
+    width: 26%;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 30px 0;
+}
+/* .guide-box .list{
+    width: 80%;
+    margin: 50px auto;
+}
+.guide-box .list td{
+    padding: 15px 20px;
+    border: 2px #fff solid;
+    text-align: center;
+}
+.guide-box .list .bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+.guide-box .list .color1{
+    background-color: #BA4F70;
+    color: #fff;
+}
+.guide-box .list .color2-1{
+    background-color: #39A7AD;
+}
+.guide-box .list .color2{
+    line-height: 1.3;
+    background-color: #E9F9FA;
+    font-size: 17px;
+}
+.guide-box .list .color3-1{
+    background-color: #FCCA00;
+}
+.guide-box .list .color3{
+    line-height: 1.3;
+    background-color: #FFF6D1;
+    font-size: 17px;
+}
+.guide-box .list .color4{
+    line-height: 1.3;
+    background-color: #F1D7DF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 20px ;
+} */
+.guide-box .form-title{
+    padding: 80px 0 20px;
+}
+.guide-box .form-title p{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #004F30;
+    line-height: 1;
+}
+.guide-box .form-title p span{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.2;
+    display: inline-block;
+    margin-top: 20px;
+    color: red;
+}
+
+.guide-box .form-wrap{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.guide-box #kboard-contact-form-editor .kboard-attr-radio,
+.guide-box #kboard-contact-form-editor .kboard-attr-date,
+.guide-box #kboard-contact-form-editor .kboard-attr-author,
+.guide-box #kboard-contact-form-editor .kboard-attr-title,
+.guide-box #kboard-contact-form-editor .kboard-attr-text
+/* .guide-box #kboard-contact-form-editor .kboard-attr-textarea*/{
+    display: flex;
+    padding: 10px 0;
+}
+
+
+.guide-box  #kboard-contact-form-editor .meta-key-junior{
+    border: 2px #BA4F70 solid;
+    border-bottom: none;
+    padding: 30px 30px 20px;
+    position: relative;
+    margin-top: 80px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-junior::before{
+    content: "교육과정선택";
+    position: absolute;
+    font-size: 25px;
+    left: -2px;
+    top: -70px;
+    line-height: 1.2;
+    font-weight: bold;
+    background-color: #BA4F70;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-adult{
+    border-right: 2px #BA4F70 solid;
+    border-left: 2px #BA4F70 solid;
+    padding: 20px 30px 20px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-special{
+    border: 2px #BA4F70 solid;
+    border-top: none;
+    padding: 20px 30px 30px;
+}
+
+.guide-box #kboard-contact-form-editor .meta-key-junior .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-adult .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-special .attr-value .attr-value-label span{
+    background-color: #fff4f7;
+    
+}
+/* .guide-box #kboard-contact-form-editor .meta-key-junior .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-adult .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-special .attr-value .attr-value-label span */
+
+.guide-box #kboard-contact-form-editor .meta-key-junior .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-adult .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-special .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-junior .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-adult .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-special .attr-value .attr-value-label input[type="radio"]:checked+span{
+    background-color: #BA4F70;
+    color: #fff;
+}
+
+
+.guide-box  #kboard-contact-form-editor .meta-key-number{
+    border: 2px #39A7AD solid;
+    border-bottom: none;
+    padding: 30px 30px 10px;
+    position: relative;
+    margin-top: 120px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-number::before{
+    content: "스케쥴선택";
+    color: #fff;
+    background-color: #39A7AD;
+    font-size: 25px;
+    left: -2px;
+    top: -70px;
+    line-height: 1.2;
+    font-weight: bold;
+    position: absolute;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+
+}
+.guide-box  #kboard-contact-form-editor .meta-key-time{
+    border-right: #39A7AD 2px solid;
+    border-left: #39A7AD 2px solid;
+    padding: 10px 30px 10px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-start{
+    border-right: #39A7AD 2px solid;
+    border-left: #39A7AD 2px solid;
+    padding: 10px 30px 10px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-startday{
+    padding: 10px 30px 30px;
+    border: 2px #39A7AD solid;
+    border-top: none;
+}
+
+
+.guide-box  #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label span,
+.guide-box  #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-start .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-startday .attr-value .attr-value-label span{
+    background-color: #E9F9FA;
+} 
+
+/* .guide-box  #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label span,
+.guide-box  #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-start .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-startday .attr-value .attr-value-label span */
+
+.guide-box  #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box  #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-start  .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-startday  .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box  #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box  #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-start  .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-startday  .attr-value .attr-value-label input[type="radio"]:checked+span{
+    background-color: #39A7AD;
+    color: #fff;
+}
+
+.guide-box #kboard-contact-form-editor .meta-key-startday input[type=text]{
+    border: #39A7AD solid 1px;
+}
+
+.guide-box  #kboard-contact-form-editor .meta-key-people{
+    border: 2px #FCCA00 solid;
+    border-bottom: none;
+    padding: 30px 30px 10px;
+    position: relative;
+    margin-top: 120px;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-people::before{
+    content: "정보입력";
+    color: #fff;
+    background-color: #FCCA00;
+    font-size: 25px;
+    left: -2px;
+    top: -70px;
+    line-height: 1.2;
+    font-weight: bold;
+    position: absolute;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.guide-box  #kboard-contact-form-editor .meta-key-level{
+    border-right: 2px #FCCA00 solid;
+    border-left: #FCCA00 solid 2px;
+    padding: 10px 30px 10px;
+}
+
+.guide-box #kboard-contact-form-editor .kboard-attr-title {
+    border-right: 2px #FCCA00 solid;
+    border-left: #FCCA00 solid 2px;
+    padding: 10px 30px 10px;
+}
+.guide-box #kboard-contact-form-editor .meta-key-guide-mail{
+    border-right: 2px #FCCA00 solid;
+    border-left: #FCCA00 solid 2px;
+    padding: 10px 30px 10px;
+}
+.guide-box #kboard-contact-form-editor .kboard-attr-author{
+    border: 2px #FCCA00 solid;
+    border-top: none;
+    padding: 10px 30px 30px;
+}
+
+.guide-box  #kboard-contact-form-editor .meta-key-people .attr-value .attr-value-label span,
+.guide-box  #kboard-contact-form-editor .meta-key-level .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-contactnum .attr-value .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-name .attr-value .attr-value-label span{
+    color: #000;
+    background-color: #FFF6D1;
+}
+
+.guide-box  #kboard-contact-form-editor .meta-key-people .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box  #kboard-contact-form-editor .meta-key-level .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-contactnum .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box #kboard-contact-form-editor .meta-key-name .attr-value .attr-value-label input[type="radio"]:hover+span,
+.guide-box  #kboard-contact-form-editor .meta-key-people .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box  #kboard-contact-form-editor .meta-key-level .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-contactnum .attr-value .attr-value-label input[type="radio"]:checked+span,
+.guide-box #kboard-contact-form-editor .meta-key-name .attr-value .attr-value-label input[type="radio"]:checked+span{
+    background-color: #FCCA00;
+    color: #fff;
+}
+
+.guide-box #kboard-contact-form-editor .meta-key-guide-mail input[type=text],
+.guide-box #kboard-contact-form-editor .kboard-attr-title input[type=text],
+.guide-box #kboard-contact-form-editor .kboard-attr-author input[type=text]{
+    border: 1px #FCCA00 solid;
+}
+
+
+.guide-box #kboard-contact-form-editor .meta-key-bank{
+    position: relative;
+    padding: 30px 0 20px;
+}
+
+.guide-box #kboard-contact-form-editor .meta-key-bank::after{
+    content: "국민은행 759901-00-112596 김유나";
+    position: absolute;
+    font-size: 30px;
+    left: 15%;
+    bottom: 25px;
+    color: red;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.guide-box #kboard-contact-form-editor .kboard-attr-radio .attr-name,
+.guide-box #kboard-contact-form-editor .kboard-attr-date .attr-name,
+.guide-box #kboard-contact-form-editor .kboard-attr-author .attr-name,
+.guide-box #kboard-contact-form-editor .kboard-attr-title .attr-name,
+.guide-box #kboard-contact-form-editor .kboard-attr-text .attr-name
+/* .guide-box #kboard-contact-form-editor .kboard-attr-textarea .attr-name  */{
+    width: 22%;
+}
+/* .guide-box #kboard-contact-form-editor .kboard-attr-title,
+.guide-box #kboard-contact-form-editor .kboard-attr-author{
+    display: none;
+} */
+.guide-box  #kboard-contact-form-editor .meta-key-bank .attr-value{
+    display: none;
+}
+.guide-box #kboard-contact-form-editor .required .attr-value{
+
+    /* display: none; */
+}
+
+
+.guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-reset-button{
+    display: none;
+}
+
+
+.guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label input[type="radio"]{
+    display: none;
+}
+.guide-box #kboard-contact-form-editor input[type=text]{
+    font-size: 14px;
+}
+
+.guide-box #kboard-contact-form-editor .attr-name .field-name{
+    font-size: 18px;
+}
+
+
+.guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value span{
+    background-color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+}
+/* 성인과정, 주니어과정 라디오 버튼 */
+.guide-box #kboard-contact-form-editor .meta-key-junior .attr-value-label span,
+.guide-box #kboard-contact-form-editor .meta-key-adult .attr-value-label span{
+    width: 150px;
+    font-size:  15px;
+}
+/* 특별과정 라디오 버튼  */
+.guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span{
+    width: 300px;
+}
+/* 횟수선택 라디오 버튼  */
+.guide-box #kboard-contact-form-editor .meta-key-number .attr-value-label span{
+    width: 195px;
+}
+/* 진행시간 라디오 버튼  */
+.guide-box #kboard-contact-form-editor .meta-key-time .attr-value-label span{
+    width: 90px;
+}
+
+/* 희망시작일 시간 라디오버튼 */
+.guide-box #kboard-contact-form-editor .meta-key-start .attr-value-label span{
+    width: 195px;
+}   
+/* 수업대상 라디오 버튼 */
+.guide-box #kboard-contact-form-editor .meta-key-people .attr-value-label span{
+    width: 90px;
+}
+.guide-box #kboard-contact-form-editor .meta-key-level .attr-value-label span{
+    width: 90px;
+}
+/* .guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label input[type="radio"]:checked+span{
+    background-color: #0F2A40;
+    color: #fff;
+} */
+
+/* .guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label input[type="radio"]:hover+span{
+    background-color: #0F2A40;
+    color: #fff;
+} */
+
+
+.guide-box #kboard-contact-form-editor .kboard-control .left{
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+}
+.guide-box #kboard-contact-form-editor .kboard-control .left button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #004F30 !important;
+    color: #fff !important;
+}
+.guide-box #kboard-contact-form-editor .meta-key-bank .field-name{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.guide-box #kboard-contact-form-editor .kboard-attr-row .attr-name .attr-required-text{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query*/
+@media all and (max-width: 1600px) {
+    .application-contact{
+        width: 75%;
+    }
+    .guide-box .info-box,
+    .guide-box .form-wrap{
+        width: 100%;
+        padding:0;
+    }
+    .curriculum-box .curriculum{
+        width: 70%;
+    }
+    .inquiry-wrap .contact-box{
+        width: 45%;
+        padding: 20px 40px 20px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .application-title .title-text{
+        width: 100%;
+    }
+    .application-contact {
+        width: 90%;
+    }
+    .guide-box .guide-contact{
+        width: 90%;
+    }
+    .guide-box #kboard-contact-form-editor .attr-name .field-name {
+        font-size: 17px;
+    }
+    .guide-box #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label{
+        padding-right: 0;
+    }
+    .curriculum-box .curriculum {
+        width: 90%;
+    }
+    .review-board .review-info .review-list{
+        width: 85%;
+        word-break: keep-all;
+        font-size: 15px;
+    }
+    .review-board .review-info p {
+        font-size: 17px;
+    }
+    .review-board .review-info p:nth-child(3) span{
+        font-size: 14px;
+    }
+    .inquiry-wrap .contact-box{
+        width: 50%;
+    }
+}
+@media all and (max-width: 1200px) {
+    .application-title .title-text h2,
+    .guide-box .guide-title p,
+    .curriculum-title p,
+    .review-title .title p{
+        font-size: 48px;
+    }
+    .application-title .title-text p{
+        font-size: 32px;
+    }
+    .application-box .title p,
+    .guide-box .title p,
+    .guide-box .form-title p,
+    .curriculum-box .title-text p,
+    .review-board .board-title > p{
+        font-size: 40px;
+    }
+
+    .application-contact .meta-key-time .attr-value label span{
+        margin-right: 10px;
+    }
+    .guide-box .info-box > div div p{
+        width: 40%;
+    }
+    .guide-box .form-title p span {
+        font-size: 22px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior::before,
+    .guide-box #kboard-contact-form-editor .meta-key-number::before,
+    .guide-box #kboard-contact-form-editor .meta-key-people::before{
+        font-size: 22px;
+        top: -68px;
+    }
+    .guide-box #kboard-contact-form-editor .attr-name .field-name {
+        font-size: 15px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-adult .attr-value-label span {
+        width: 130px;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .guide-box #kboard-contact-form-editor .kboard-attr-radio .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-date .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-author .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-title .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-text .attr-name {
+        width: 20%;
+    }
+
+    .guide-box #kboard-contact-form-editor .meta-key-start .attr-name .field-name{
+        word-break: keep-all;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span{
+        font-size: 14px;
+        width: 290px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-start .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-startday .attr-value .attr-value-label span{
+        font-size: 14px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-people .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-level .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-contactnum .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-name .attr-value .attr-value-label span{
+        font-size: 14px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank::after{
+        font-size: 26px;
+    }
+    .guide-box  #kboard-contact-form-editor .editor-textarea{
+        font-size: 14px;
+    }
+    .curriculum-box .title-set{
+        font-size: 23px;
+    }
+    .curriculum-box .curriculum .total-list .title{
+        font-size: 26px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1){
+        font-size: 30px;
+    }
+    .review-board{
+        width: 90%;
+    }
+    .review-board p span{
+        font-size: 27px;
+    }
+    .inquiry-wrap .inquiry-title{
+        background: url(../images/inquirybg.jpg) no-repeat 100% 0 / cover;
+    }
+}
+@media all and (max-width: 1024px){
+    .application-title .title-text h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .application-title .title-text p {
+        font-size: 30px;
+    }
+    .application-box .title p, .guide-box .title p, .guide-box .form-title p,
+    .curriculum-box .title-text p,.review-board .board-title > p {
+        font-size: 35px;
+    }
+    .guide-box .info-box > div .info-title p{
+        font-size: 22px;
+    }
+    .guide-box .info-box > div .info-title p span,
+    .guide-box .info-box > div div p{
+        font-size: 18px;
+    }
+    .guide-box .guide-title p,
+    .curriculum-title p,
+    .review-title .title p {
+        font-size: 45px;
+    }
+    .curriculum-box .curriculum .total-list .title {
+        font-size: 24px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 28px;
+    }
+    .curriculum-box .curriculum .total-list .list-title .publish,
+    .curriculum-box .curriculum .total-list .list-title .person{
+        font-size: 15px;
+    }
+    .curriculum-box .curriculum .list-img{
+        width: 180px;
+    }
+    .review-title .btn a{
+        font-size: 15px;
+    }
+    .review-board p span {
+        font-size: 25px;
+    }
+    .review-board .review-info p {
+        font-size: 16px;
+    }
+    .review-board  #kboard-default-document .kboard-title h1{
+        font-size: 20px;
+    }
+    .inquiry-wrap .contact-box {
+        width: 55%;
+    }
+} 
+@media all and (max-width: 900px){
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span{
+        width: 270px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-start .attr-value .attr-value-label span{
+        margin-top: 3px;
+    }
+    .curriculum-box .title-set {
+        font-size: 21px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 28px;
+    }
+
+
+}
+@media all and (max-width: 860px){
+    .application-contact{
+        padding: 30px;
+    }
+    .application-contact #kboard-contact-form-editor .kboard-attr-row .attr-value .attr-value-label{
+        padding-right: 0;
+        width: unset;
+    }
+    .application-contact .meta-key-time .attr-value label span{
+        font-size: 16px;
+    }
+    .guide-box .guide-contact{
+        padding-top: 40px;
+    }
+    .guide-box .form-title p span {
+        font-size: 20px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior,
+    .guide-box #kboard-contact-form-editor .meta-key-adult,
+    .guide-box #kboard-contact-form-editor .meta-key-special,
+    .guide-box #kboard-contact-form-editor .meta-key-time,
+    .guide-box #kboard-contact-form-editor .meta-key-number,
+    .guide-box #kboard-contact-form-editor .meta-key-start,
+    .guide-box #kboard-contact-form-editor .meta-key-startday,
+    .guide-box #kboard-contact-form-editor .meta-key-people,
+    .guide-box #kboard-contact-form-editor .meta-key-level,
+    .guide-box #kboard-contact-form-editor .meta-key-guide-mail,
+    .guide-box #kboard-contact-form-editor .kboard-attr-title,
+    .guide-box #kboard-contact-form-editor .kboard-attr-author{
+        flex-wrap: wrap;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-adult .attr-value-label span{
+        width: 154px;
+    }
+    .guide-box #kboard-contact-form-editor .kboard-attr-radio .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-date .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-author .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-title .attr-name, .guide-box #kboard-contact-form-editor .kboard-attr-text .attr-name{
+        width: 100%;
+    }
+
+    .guide-box #kboard-contact-form-editor .meta-key-number .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-start .attr-value-label span {
+        width: 206px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-startday .attr-value,
+    .guide-box #kboard-contact-form-editor .meta-key-guide-mail .attr-value,
+    .guide-box #kboard-contact-form-editor .kboard-attr-title .attr-value,
+    .guide-box #kboard-contact-form-editor .kboard-attr-author .attr-value{
+        width: 100%;
+    }
+    .curriculum-box .curriculum {
+        width: 80%;
+    }
+    .curriculum-box .title-set {
+        font-size: 20px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) span{
+        display: block;
+        margin-top: 3px;
+    }
+    .curriculum-box .curriculum .total-list .list-text p{
+        font-size: 14px;
+        word-break: keep-all;
+    }
+    
+    .curriculum-box .curriculum .list-img {
+        width: 160px;
+        margin-bottom: 30px;
+    }
+    .curriculum-box .curriculum .list-img img{
+        height: auto;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 26px;
+    }
+    .curriculum-box .curriculum .flex{
+        flex-wrap: wrap;
+    }
+    .curriculum-box .curriculum .flex-none {
+        width: 100%;
+        text-align: center;
+    }
+    .curriculum-box .curriculum .total-list .list-title{
+        justify-content: center;
+    }
+    .review-title .title p{
+        font-size: 43px;
+    }
+    .review-board #kboard-default-document .kboard-content .content-view{
+        font-size: 15px;
+    }
+    .inquiry-wrap .contact-box {
+        width: 65%;
+    }
+    .inquiry-wrap .contact-box .text-title {
+        padding: 20px 0 10px;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(1){
+        font-size: 23px;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(2){
+        font-size: 16px;
+    }
+    .term_con_area label {
+        font-size: 14px;
+    }
+
+}
+@media all and (max-width: 768px){
+    .application-title .title-text h2, .guide-box .guide-title p,.curriculum-title p,.review-title .title p{
+        font-size: 40px;
+    }
+    .application-title .title-text p {
+        font-size: 26px;
+    }
+    .application-box .title p, .guide-box .title p, .guide-box .form-title p,.curriculum-box .title-text p,
+    .review-board .board-title > p{
+        font-size: 30px;
+    }
+    .application-contact .field-name{
+        font-size: 16px;
+    }
+    .application-contact {
+        padding: 30px 20px;
+    }
+    .application-contact .meta-key-time .attr-value label span {
+        font-size: 14px;
+        padding: 9px;
+    }
+    .application-contact .meta-key-class .attr-value label span, .application-contact .meta-key-6166592d9f328 .attr-value label span{
+        font-size: 14px;
+    }
+    .application-contact #kboard-contact-form-editor input[type=text],
+    .application-contact #kboard-contact-form-editor .editor-textarea{
+        font-size: 14px;
+    }
+    .application-contact #kboard-contact-form-editor .kboard-control .left button{
+        font-size: 15px;
+        padding: 6px 40px
+    }
+    .guide-box .info-box{
+        flex-wrap: wrap;
+    }
+    .guide-box .info-box > div{
+        width: 100%;
+    }
+    .guide-box .info-box .info2{
+        margin: 10px 0;
+    }.guide-box #kboard-contact-form-editor .meta-key-junior::before, .guide-box #kboard-contact-form-editor .meta-key-number::before, .guide-box #kboard-contact-form-editor .meta-key-people::before {
+        font-size: 19px;
+        top: -63px;
+        width: 115px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value,
+    .guide-box #kboard-contact-form-editor .meta-key-number .attr-value,
+    .guide-box #kboard-contact-form-editor .meta-key-start .attr-value,
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-number .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-start .attr-value-label span{
+        width: 100%;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span{
+        margin-top: 3px;
+    }
+    .curriculum-box .curriculum {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .curriculum-box .title-set {
+        font-size: 18px;
+    }
+    .curriculum-box .title-set a{
+        padding: 20px 30px;
+    }
+    .curriculum-box .curriculum .total-list .title {
+        font-size: 22px;
+    }
+    .curriculum-box .curriculum .total-list .title p::before{
+        width: 5px;
+        height: 24px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 24px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) span {
+        font-size: 16px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .curriculum-box .curriculum .total-list .list-title .publish, .curriculum-box .curriculum .total-list .list-title .person {
+        font-size: 14px;
+    }
+    .review-title .title p{
+        word-break: keep-all;
+    }
+    .review-board p span {
+        font-size: 22px;
+    }
+    .review-board .review-info{
+        padding: 25px 30px;
+    }
+    .review-board .review-info p {
+        font-size: 14px;
+        word-break: keep-all;
+    }
+    .review-board .review-info p:nth-child(3) span {
+        font-size: 13px;
+        word-break: keep-all;
+    }
+    .review-board .review-info .review-list{
+        font-size: 13px;
+    }
+    .review-board #kboard-default-list .kboard-list table td {
+        font-size: 12px;
+    }
+    .review-board #kboard-default-list .kboard-list table td.kboard-list-uid {
+        width: 55px;
+    }
+    .review-board  #kboard-default-list .kboard-list table a{
+        font-size: 13px;
+    }
+    .inquiry-wrap .contact-box {
+        width: 75%;
+    }
+}
+@media all and (max-width: 600px){
+    .application-title .title-text h2,
+    .curriculum-title p {
+        font-size: 35px;
+    }
+    .application-title .title-text p {
+        word-break: keep-all;
+        line-height: 1.4
+    }
+    .application-box .title {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .application-box .title p, .guide-box .title p, .guide-box .form-title p,
+    .curriculum-box .title-text p,.review-board .board-title > p{
+        font-size: 28px;
+    }
+    .application-contact .meta-key-time .attr-value label span{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .guide-box .info-box, .guide-box .form-wrap{
+        width: 85%;
+    }
+    .guide-box .info-box > div .info-title p {
+        font-size: 20px;
+    }
+    .guide-box .info-box > div .info-title p span, .guide-box .info-box > div div p {
+        font-size: 16px;
+    }
+    .guide-box .info-box > div div p{
+        padding: 20px 0;
+    }
+    .guide-box .form-title p span {
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-adult .attr-value-label span{
+        width: 100%;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank::after {
+        font-size: 23px;
+    }
+    .term_con_area label {
+        font-size: 14px;
+    }
+    .guide-box #kboard-contact-form-editor .kboard-control .left button{
+        font-size: 15px;
+    }
+    .guide-box #kboard-contact-form-editor input[type=text],
+    .guide-box #kboard-contact-form-editor .editor-textarea{
+        font-size: 13px;
+    }
+    .review-title .title p{
+        font-size: 32px;
+    }
+    .review-board .review-info {
+        padding: 25px 20px;
+    }
+    .review-title .btn a{
+        padding: 16px 23px;
+    }
+    .review-board .board-title{
+        padding-top: 30px;
+    }
+    .review-board p span {
+        font-size: 19px;
+    }
+    .review-board .review-info p{
+        font-size: 13px;
+    }
+    .review-board .review-info .review-list {
+        font-size: 12px;
+    }
+    .review-board #kboard-default-document .kboard-title h1 {
+        font-size: 18px;
+    }
+    .review-board  #kboard-default-document .kboard-detail .detail-attr{
+        padding: 8px 5px;
+        width: 100%;
+    }
+    .review-board  #kboard-default-document .kboard-detail .detail-attr .detail-name{
+        font-size: 14px;
+    }
+    .inquiry-wrap .contact-box {
+        width: 90%;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(1) {
+        font-size: 21px;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(2) {
+        font-size: 14px;
+    }
+    .inquiry-wrap .contact-box #kboard-contact-form-editor .kboard-attr-row .attr-name span{
+        font-size: 15px;
+    }
+    .inquiry-wrap .contact-box #kboard-contact-form-editor .kboard-attr-row {
+        padding: 5px 0;
+    }
+    .inquiry-wrap #kboard-contact-form-editor input[type=text],
+    .inquiry-wrap #kboard-contact-form-editor .editor-textarea{
+        font-size: 14px;
+    }
+    .inquiry-wrap #kboard-contact-form-editor .kboard-control .left button{
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 485px){
+    .application-title .title-text h2,
+    .guide-box .guide-title p
+    .curriculum-title p {
+        font-size: 30px;
+    }
+    .application-title .title-text p {
+        font-size: 22px;
+    }
+    .application-box .title {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+    .guide-box .form-title p span{
+        font-size: 14px;
+    }
+    .term_con_area label {
+        font-size: 14px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank{
+        padding: 15px 0 53px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank::after{
+        bottom: 0px;
+        left: 0;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-level .attr-value,
+    .guide-box #kboard-contact-form-editor .meta-key-level .attr-value-label span{
+        width: 100%;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-level .attr-value-label span{
+        margin-top: 3px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank::after {
+        font-size: 21px;
+    }
+    .guide-box #kboard-contact-form-editor input[type=text],
+    .guide-box #kboard-contact-form-editor .editor-textarea{
+        font-size: 12px;
+    }
+    .curriculum-box .title-set a {
+        padding: 16px 18px;
+    }
+    .curriculum-box .curriculum .total-list .title {
+        font-size: 20px;
+    }
+    .curriculum-box .curriculum .total-list .title p::before{
+        height: 20px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 22px;
+    }
+    .curriculum-box .curriculum .list-img{
+        margin-bottom: 24px;
+    }
+    .curriculum-box .curriculum .total-list .list-title .publish, .curriculum-box .curriculum .total-list .list-title .person {
+        font-size: 12px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) span {
+        font-size: 15px;
+    }
+    .curriculum-box .title-set {
+        font-size: 16px;
+    }
+    .curriculum-box .curriculum .total-list .list-text p{
+        font-size: 13px;
+    }
+    .curriculum-box .curriculum .total-class{
+        padding-top: 5px;
+    }
+    .curriculum-box .curriculum .total-list .title {
+        font-size: 18px;
+    }
+    .review-title .title p{
+        font-size: 30px;
+    }
+    .review-board .board-title > p{
+        font-size: 24px;
+    }
+    .review-board p span {
+        font-size: 17px;
+    }
+    .review-board .review-info .review-list{
+        width: 95%;
+    }
+    .review-board #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings{
+        font-size: 14px;
+    }
+
+    .review-board #kboard-default-document .kboard-title h1 {
+        font-size: 17px;
+    }
+    .review-board #kboard-default-document .kboard-detail .detail-attr .detail-name {
+        font-size: 13px;
+    }
+    .review-board #kboard-default-document .kboard-detail .detail-attr .detail-value{
+        font-size: 12px;
+    }
+    .review-board #kboard-default-document .kboard-content .content-view {
+        font-size: 14px;
+    }
+    .inquiry-wrap {
+        height: 120vh;
+    }
+    /* .inquiry-wrap .inquiry-title{
+        height: 120vh;
+    }
+    .inquiry-wrap .inquiry-title .bg{
+        height: 120vh;
+    } */
+    .inquiry-wrap .contact-box{  
+        padding: 20px 30px 20px;
+    }
+    .inquiry-wrap .contact-box .text-title {
+        padding: 10px 0 10px;
+    }    
+    .inquiry-wrap .contact-box .text-title p:nth-child(1) {
+        font-size: 18px;
+        word-break: keep-all;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(2) {
+        word-break: keep-all;
+    }
+    .inquiry-wrap .contact-box #kboard-contact-form-editor .kboard-attr-row .attr-name span {
+        font-size: 14px;
+    }
+    .inquiry-wrap #kboard-contact-form-editor input[type=text], .inquiry-wrap #kboard-contact-form-editor .editor-textarea {
+        font-size: 13px;
+    }
+    .inquiry-wrap .contact-box #kboard-contact-form-editor .kboard-attr-row {
+        padding: 2px 0;
+    }
+    .term_con_area label {
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 375px){
+    .application-title .title-text h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .application-title .title-text p {
+        font-size: 17px;
+    }
+    .application-box .title p {
+        font-size: 22px;
+    }
+    .application-contact{
+        margin-top:0;
+        padding: 20px;
+    }
+    .application-contact .field-name {
+        font-size: 14px;
+    }
+    .application-contact .meta-key-time .attr-value label span{
+        font-size: 12px;
+    }
+    .application-contact #kboard-contact-form-editor input[type=text], .application-contact #kboard-contact-form-editor .editor-textarea {
+        font-size: 12px;
+    }
+    .application-contact .meta-key-class .attr-value label span, .application-contact .meta-key-6166592d9f328 .attr-value label span{
+        padding: 2px 10px;
+        width: 73px;
+    }
+    .term_con_area label{
+        font-size: 12px;
+    }
+    .application-contact #kboard-contact-form-editor .kboard-control .left{
+        margin-top: 15px;
+    }
+    .application-contact #kboard-contact-form-editor .kboard-control .left button {
+        font-size: 13px;
+        padding: 0px 40px;
+    }
+    .guide-box .guide-title{
+        background: url(../images/guidebg.jpg) no-repeat 50% / cover;
+    }
+    .guide-box .guide-title p{
+        font-size: 25px;
+    }
+    .guide-box .guide-contact{
+        padding-top: 10px;
+    }
+    .application-box .title p, .guide-box .title p, .guide-box .form-title p{
+        font-size: 22px;
+    }
+    .guide-box .info-box > div .info-title p {
+        font-size: 17px;
+        line-height: 1;
+        padding: 13px 0;
+    }
+    .guide-box .info-box > div .info-title p span, .guide-box .info-box > div div p{
+        font-size: 14px;
+    }
+    .guide-box .info-box > div .min-1{
+        padding-top: 0;
+    }
+    .guide-box .info-box > div div p {
+        padding: 12px 0;
+    }
+    .guide-box .info-box, .guide-box .form-wrap {
+        width: 100%;
+    }
+    .guide-box .form-title {
+        padding: 30px 0 20px;
+    }
+    .guide-box .form-title p span {
+        font-size: 13px;
+        word-break: keep-all;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-junior::before, .guide-box #kboard-contact-form-editor .meta-key-number::before, .guide-box #kboard-contact-form-editor .meta-key-people::before {
+        font-size: 16px;
+        top: -50px;
+        width: 115px;
+        padding: 15px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-time .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-number .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-start .attr-value .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-startday .attr-value .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-junior .attr-value-label span, .guide-box #kboard-contact-form-editor .meta-key-adult .attr-value-label span,
+    .guide-box #kboard-contact-form-editor .meta-key-special .attr-value-label span{
+        font-size: 13px;
+    }
+    .guide-box #kboard-contact-form-editor .meta-key-bank::after{
+        font-size: 16px;
+        bottom: 32px;
+    }
+    .guide-box #kboard-contact-form-editor .editor-textarea {
+        font-size: 13px;
+    }
+    .guide-box #kboard-contact-form-editor .kboard-control .left button {
+        font-size: 14px;
+    }
+    .curriculum-title p{
+        font-size: 25px;
+    }
+    .curriculum-box .title-text p{
+        font-size: 22px;
+    }
+    .curriculum-title{
+        background: url(../images/curriculumbg.jpg) no-repeat 50% / cover;
+    }
+    .curriculum-box .curriculum{
+        margin: 0px auto;
+        padding-top: 30px;
+    }
+    .curriculum-box .title-set {
+        font-size: 14px;
+        margin: 40px 0 10px;
+    }
+    .curriculum-box .title-set a {
+        padding: 13px 12px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) {
+        font-size: 18px;
+    }
+    .curriculum-box .curriculum .total-list .list-title .publish, .curriculum-box .curriculum .total-list .list-title .person {
+        font-size: 10px;
+    }
+    .curriculum-box .curriculum .total-list .list-text p {
+        font-size: 11px;
+    }
+    .curriculum-box .curriculum .list-img{
+        width: 130px;
+        margin-bottom: 15px;
+    }
+    .curriculum-box .curriculum .total-list .title {
+        font-size: 17px;
+    }
+    .curriculum-box .curriculum .total-list .list-title p:nth-child(1) span {
+        font-size: 13px;
+    }
+    .review-title .title p{
+        font-size: 25px;
+    }
+    .review-title .btn a {
+        font-size: 14px;
+        padding: 16px 15px;
+    }
+    .review-board .board-title {
+        padding-top: 10px;
+    }
+    .review-board .board-title > p {
+        font-size: 22px;
+    }
+    .review-board p span {
+        font-size: 15px;
+    }
+    .review-board .review-info p {
+        font-size: 12px;
+    }
+    .review-board .review-info p:nth-child(3) span{
+        font-size: 11px;
+    }
+    .review-board .review-info .review-list {
+        font-size: 10px;
+    }
+    .review-board #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings {
+        font-size: 13px;
+    }
+    .review-board  #kboard-default-list .kboard-list .kboard-mobile-contents{
+        font-size: 12px;
+    }
+    .inquiry-wrap .contact-box{
+        top: 52%;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(1){
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .inquiry-wrap .contact-box .text-title p:nth-child(2) {
+        font-size: 12px;
+    }
+    .inquiry-wrap .contact-box #kboard-contact-form-editor .kboard-attr-row .attr-name span {
+        font-size: 12px;
+    }
+    .inquiry-wrap #kboard-contact-form-editor input[type=text]{
+        height: 28px;
+    }
+    .inquiry-wrap  #kboard-contact-form-editor .kboard-attr-row .attr-name{
+        line-height: 25px;
+    }
+    .inquiry-wrap #kboard-contact-form-editor input[type=text], .inquiry-wrap #kboard-contact-form-editor .editor-textarea{
+        font-size: 12px;
+    }
+    .term_con_area label {
+        font-size: 11px;
+    }
+    .inquiry-wrap #kboard-contact-form-editor .kboard-control .left button {
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 770px) {
+    .pc_area{
+        display: none;
+    }
+
+    .mo_area{
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 380px) {
+
+}
